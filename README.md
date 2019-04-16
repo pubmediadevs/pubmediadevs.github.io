@@ -1,8 +1,6 @@
 # Public Media Developers
 https://www.pubmediadevs.org
 
-<img src="./images/pmd.png" alt="Public Media Developers" style="width:150px;">
-
 ## Slack - pubmediadevs.slack.com
 Join the Public Media Developers slack!
 
