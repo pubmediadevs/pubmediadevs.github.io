@@ -1,4 +1,6 @@
 # Public Media Developers
+Welcome to Public Media Developers, a network of developers, programmers, and coders that work in public media web, tech and digital.
+
 https://www.pubmediadevs.org
 
 ## Slack - pubmediadevs.slack.com
