@@ -1,7 +1,60 @@
+html body {
+  height: 100%;
+}
 body {
-  font-family: 'Raleway', sans-serif;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 1em;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  background-color: #FEFCAD;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5em;
   text-align: center;
+}
+
+section {
+  margin-bottom: 1.5em;
+}
+
+header h1 {
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 0;
+}
+
+h1,h2,h3,p {
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+h2,h3  {
+  background-color: #e6e18f;
+  padding: 0.5em 0;
+}
+
+a {
+  font-weight: 600;
+  text-decoration: none;
+}
+a[target="_blank"]::after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+  margin: 0px 3px 0px 5px;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+.title {
+  background-color: #eadda6;
+  padding: 1em 0;
+}
+
+footer {
+  position: fixed;
+  color: #ebede9;
+  bottom: 0;
+  padding: .8em 0;
+  width: 100%;
+  height: auto;
+  background-color: #92977e;
 }
