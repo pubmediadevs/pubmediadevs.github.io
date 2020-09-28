@@ -1,10 +1,11 @@
+/* Palette Used: https://coolors.co/92977e-e6e18f-fefcad-f4edaa-eadda6-fffae2 */
 html body {
   height: 100%;
 }
 body {
   font-family: 'Inter', sans-serif;
   font-size: 1.1rem;
-  background-color: #fffedc;
+  background-color: #fffae2;
   padding: 0;
   margin: 0;
   margin-bottom: 5em;
