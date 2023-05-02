@@ -60,6 +60,12 @@
             </strong>
         </p>
     </section>
-    <footer><small>2022 Public Media Developers</small></small></footer>
+    <footer><small><span id="current-year"></span> Public Media Developers</small></footer>
+    <!-- JavaScript code to display current year -->
+    <script>
+        const currentYear = new Date().getFullYear();
+        const spanElement = document.getElementById("current-year");
+        spanElement.textContent = currentYear;
+    </script>
 </body>
 </html>
