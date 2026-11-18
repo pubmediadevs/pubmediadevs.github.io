@@ -1,16 +1,21 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Public Media Developers</title>
-    <meta name="HandheldFriendly" content="true" />
-    <meta name="MobileOptimized" content="320" />
+    <meta name="description" content="Public Media Developers is a network of developers, programmers, and coders working in public media web, tech, and digital.">
+    <link rel="canonical" href="https://www.pubmediadevs.org/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="./images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <link rel="icon" type="image/png" href="./images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="./images/favicon-16x16.png" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preload" as="image" href="./images/pmd.png" fetchpriority="high">
     <link href="./css/style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Quicksand:wght@400;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Quicksand:wght@400;600&display=swap" rel="stylesheet"></noscript>
 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -22,7 +27,7 @@
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WVRT8RN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WVRT8RN" title="Google Tag Manager" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <header>
@@ -31,9 +36,10 @@
             <strong><a href="https://www.pubmediadevs.org">https://www.pubmediadevs.org</a></strong>
         </div>
     </header>
+    <main>
     <section>
         <figure>
-            <img src="./images/pmd.png" alt="Public Media Developers" style="width:150px;">
+            <img src="./images/pmd.png" alt="Public Media Developers" fetchpriority="high" decoding="async" style="width:150px;">
         </figure>
         <p>Welcome to Public Media Developers, a network of developers, programmers, and coders that work in public media web, tech and digital.</p>
     </section>
@@ -60,12 +66,15 @@
             </strong>
         </p>
     </section>
+    </main>
     <footer><small><span id="current-year"></span> Public Media Developers</small></footer>
     <!-- JavaScript code to display current year -->
     <script>
         const currentYear = new Date().getFullYear();
         const spanElement = document.getElementById("current-year");
-        spanElement.textContent = currentYear;
+        if (spanElement) {
+            spanElement.textContent = String(currentYear);
+        }
     </script>
 </body>
 </html>
