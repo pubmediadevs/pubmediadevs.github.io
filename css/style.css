@@ -33,7 +33,7 @@ h2,h3  {
 
 a {
   font-weight: 600;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a[target="_blank"]::after {
   content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
@@ -52,7 +52,7 @@ a:active {
 
 footer {
   position: fixed;
-  color: #ebede9;
+  color: #1b1f13;
   bottom: 0;
   padding: .8em 0;
   width: 100%;
